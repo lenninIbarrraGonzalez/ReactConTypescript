@@ -1,7 +1,11 @@
 import { useEffect, useRef, useState } from "react"
 
-type TimerArgs = {
-    milisegundos: number
+// type TimerArgs = {
+//     milisegundos: number
+// }
+
+interface TimerArgs {
+    milisegundos: number;
 }
 
 
