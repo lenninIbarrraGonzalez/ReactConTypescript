@@ -1,46 +1,42 @@
-# Getting Started with Create React App
+# React con TypeScript
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es una aplicación de ejemplo creada con [Create React App](https://github.com/facebook/create-react-app) utilizando TypeScript. Demuestra el uso de hooks como `useState`, `useEffect`, `useRef`, `useReducer` y la creación de custom hooks en React.
 
-## Available Scripts
+## Estructura del Proyecto
 
-In the project directory, you can run:
+- **src/components/**: Componentes funcionales como Counter, Usuario, Timer, TimerPadre, ContadorRed y Formulario.
+- **src/hooks/**: Custom hook `useForm` para manejo de formularios.
+- **src/App.tsx**: Componente principal que integra todos los ejemplos.
+- **public/**: Archivos públicos y estáticos.
 
-### `npm start`
+## Scripts Disponibles
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+En el directorio del proyecto puedes ejecutar:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- `npm start`: Ejecuta la app en modo desarrollo.
+- `npm test`: Lanza el corredor de pruebas.
+- `npm run build`: Construye la app para producción.
+- `npm run eject`: Expone la configuración de Create React App.
 
-### `npm test`
+## Tecnologías
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React 19
+- TypeScript
+- Bootstrap 5
 
-### `npm run build`
+## Instalación
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clona el repositorio.
+2. Ejecuta `npm install` para instalar las dependencias.
+3. Ejecuta `npm start` para iniciar la aplicación.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Características
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Ejemplo de manejo de estado con hooks.
+- Uso de TypeScript para tipado estricto.
+- Formularios controlados y custom hooks.
+- Ejemplo de useReducer para manejo avanzado de estado.
 
-### `npm run eject`
+## Créditos
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Curso de React con TypeScript por Fernando Herrera.
