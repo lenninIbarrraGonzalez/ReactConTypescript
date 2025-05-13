@@ -18,7 +18,7 @@ const contadorReducer = (state: typeof initialState, action:ActionType) => {
                 ...state,
                 contador: state.contador + 1
             }
-
+            
         case 'decrementar':
             return {
                 ...state,
@@ -44,7 +44,7 @@ export const ContadorRed = () => {
     return (
         <>
             <h1>Contador: {contador}</h1>
-            
+
             <button className="btn btn-outline-primary me-3"
                 onClick={() => dispatch({
                     type:'incrementar'
